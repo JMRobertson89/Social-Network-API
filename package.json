@@ -4,7 +4,10 @@
   "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. ",
   "main": "index.js",
   "scripts": {
-    "test": "npm run test"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "dev": "nodemon index.js",
+    "seed": "node seeds/seed.js"
   },
   "repository": {
     "type": "git",
@@ -25,6 +28,10 @@
   "homepage": "https://github.com/JMRobertson89/Social-Network-API#readme",
   "dependencies": {
     "express": "^4.21.0",
-    "mongoose": "^8.7.0"
+    "mongoose": "^8.7.0",
+    "validator": "^13.12.0"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.7"
   }
 }
