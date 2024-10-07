@@ -1,0 +1,30 @@
+{
+  "name": "Social-Network-API",
+  "version": "1.0.0",
+  "description": "An API for a social network web application where users can share their thoughts, react to friends’ thoughts, and create a friend list. ",
+  "main": "server.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JMRobertson89/Social-Network-API.git"
+  },
+  "keywords": [
+    "NoSQL",
+    "MongoDB",
+    "Express",
+    "Mongoose",
+    "API"
+  ],
+  "author": "Joshua Robertson",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/JMRobertson89/Social-Network-API/issues"
+  },
+  "homepage": "https://github.com/JMRobertson89/Social-Network-API#readme",
+  "dependencies": {
+    "express": "^4.21.0",
+    "mongoose": "^8.7.0"
+  }
+}
