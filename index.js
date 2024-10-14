@@ -1,6 +1,6 @@
 const express = require("express");
 const db = require("./config/connection");
-const routes = require("../Social-Network-APIv2/routes");
+const routes = require("../Social-Network-API/routes");
 
 const PORT = 3001;
 const app = express();
